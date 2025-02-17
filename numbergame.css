@@ -1,0 +1,47 @@
+.head , label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subhead > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit, #guessinput{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+  
+}
+
+.resultpara > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(49, 47, 47);
+    color: bisque;
+    font-size: larger;
+}
+
+.head{
+    background-color: black;
+    color: azure;
+}
+
+.main{
+    height: 500px;
+    width: 500px;
+    border: 3px solid whitesmoke;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
